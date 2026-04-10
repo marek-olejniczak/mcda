@@ -66,12 +66,6 @@ def build_hospital_data(sample_size: int = SAMPLE_SIZE, random_state: int = RAND
 
 	merged = merged.dropna()
 
-	merged["mort_ami"] = -merged["mort_ami"]
-	merged["comp_hip_knee"] = -merged["comp_hip_knee"]
-	merged["readmission_hf"] = -merged["readmission_hf"]
-	merged["spending"] = -merged["spending"]
-	merged["count_of_readm_measures_worse"] = -merged["count_of_readm_measures_worse"]
-
 	final_cols = [
 		"facility_id",
 		"facility_name",

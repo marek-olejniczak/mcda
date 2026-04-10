@@ -1,1 +1,10 @@
 .vscode
+
+context/
+
+*.venv
+venv/
+
+__pycache__/
+*.pyc
+
