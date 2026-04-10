@@ -5,7 +5,7 @@ import pandas as pd
 
 RAW_DIR = Path(__file__).resolve().parent / "raw"
 OUTPUT_PATH = Path(__file__).resolve().parent / "hospital_data.csv"
-SAMPLE_SIZE = 100
+SAMPLE_SIZE = 300
 RANDOM_STATE = 42
 
 
