@@ -1,7 +1,5 @@
 .vscode
 
-context/
-
 *.venv
 venv/
 
